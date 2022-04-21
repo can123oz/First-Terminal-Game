@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')({sigint: true});
-
-const hat = '^';
+// these are characters at the field that we created
+const hat = '^'; // this it the bounty 
 const hole = 'O';
 const fieldCharacter = '░';
-const pathCharacter = '*';
+const pathCharacter = '*'; // this is the player
 
 
 class Field {
