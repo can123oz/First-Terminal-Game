@@ -108,7 +108,7 @@ const moveMan = (myField) => { //this the game part
                 myField._land[initialPositionForX][initialPositionForY] = '*';
             }
             myField.print()
-        } else if (userInput == "W" || userInput =="W") { //to go forward
+        } else if (userInput == "W" || userInput =="w") { //to go forward
             if (initialPositionForX > 0) {
                 currentPosition = myField._land[initialPositionForX--][initialPositionForY];
             }
